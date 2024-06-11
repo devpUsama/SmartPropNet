@@ -1,5 +1,6 @@
 import logo from '../assets/logo.svg';
 
+
 const Navigation = ({ account, setAccount }) => {
 
     const connectHandler = async () =>{
@@ -28,7 +29,7 @@ const Navigation = ({ account, setAccount }) => {
 
             <div className='nav__brand'>
                 <img src={logo} alt='Logo'/>
-                <h1>Millow</h1>
+                <h1>SmartPropNet</h1>
             </div>
 
             {account ? (

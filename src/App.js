@@ -5,6 +5,7 @@ import { ethers } from "ethers";
 import Navigation from "./components/Navigation";
 import Search from "./components/Search";
 import Home from "./components/Home";
+import Footer from "./components/footer";
 
 // ABIs
 import RealEstate from "./abis/RealEstate.json";
@@ -12,6 +13,9 @@ import Escrow from "./abis/Escrow.json";
 
 // Config
 import config from "./config.json";
+
+
+
 
 function App() {
   const [provider, setProvider] = useState(null);
@@ -98,7 +102,13 @@ function App() {
       {toggle && (
         <Home home={home} provider={provider} account={account} escrow={escrow} togglePop={togglePop}/>
       )}
+      <div>
+        <br></br>
+      </div>
+      <Footer/>
     </div>
+
+    
   );
 }
 

@@ -1,5 +1,5 @@
 {
-  "name": "millow",
+  "name": "SmartPropNet",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -38,6 +38,7 @@
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^2.0.0",
     "@openzeppelin/contracts": "^4.9.6",
-    "hardhat": "^2.12.0"
+    "hardhat": "^2.12.0",
+    "tailwindcss": "^3.4.4"
   }
 }
